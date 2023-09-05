@@ -22,6 +22,37 @@ body{
     font-weight: bold;
     font-size: 0.8rem;
 }
+aside {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+}
+.ballon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 42px;
+    margin: 30px;
+    border-radius: 30px;
+    background-color: #22c15e;
+    border-radius: 40px;
+}
+.ballon:hover {
+    background-color: #22a15e;
+    transition: all ease 0.3s;
+}
+.ballon-icon img {
+    width: 40px;
+}
+.ballon-text {
+    padding-left: 5px;
+}
+.ballon-text span {
+    color: white;
+}
+
 
 footer {
     position: fixed;
@@ -42,5 +73,12 @@ footer {
     .nav-mobile {
         justify-content: center!important;
     }
-
+    
+    aside .ballon{
+        width: 60px;
+    }
+    .ballon-text{
+        display: none;
+    }
+    
 }
