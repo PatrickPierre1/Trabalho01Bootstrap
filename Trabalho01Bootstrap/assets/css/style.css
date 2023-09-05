@@ -17,6 +17,23 @@ body{
     width: 120px;
     height: 120px;
 }
+
+.bg-img-1 {
+    background-image: url('/assets/media/slide-01.jpg');
+}
+.bg-img-2 {
+    background-image: url('/assets/media/slide-02.jpg');
+}
+.bg-img-3 {
+    background-image: url('/assets/media/slide-03.jpg');
+}
+.carousel-image {
+    height:70vh;
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    background-position: center;
+}
+
 .about p {
     text-align: center;
     font-weight: bold;
@@ -80,5 +97,10 @@ footer {
     .ballon-text{
         display: none;
     }
-    
+    .carousel-image {
+        height: 31vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
