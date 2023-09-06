@@ -24,8 +24,7 @@ main {
 }
 
 .container-form {
-    width: 65vh;
-    height: 60vh;
+    padding: 30px;
     margin-top: 10vh;
     background-color: rgba(0, 0 ,0, 0.3);
     border-radius: 5%;
@@ -88,8 +87,7 @@ footer {
         justify-content: center!important;
     }
     .container-form {
-        width: 40vh;
-        height: 50vh;
+        padding: 30px;
         margin-top: 10vh;
         background-color: rgba(0, 0 ,0, 0.3);
         border-radius: 5%;
